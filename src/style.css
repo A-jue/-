@@ -1,0 +1,13 @@
+/* // 设置高度占满全屏  html,body,#app,.el-container,.el-aside都要设置height:100%; */
+html {
+  height: auto;
+}
+
+body,
+#app,
+.el-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
